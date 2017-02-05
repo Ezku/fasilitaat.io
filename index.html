@@ -7,24 +7,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="node_modules/normalize.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/main.css">
 </head>
 <body>
-  <header>
-    <h1>fasilitaat.io</h1>
-  </header>
-  <section>
-    <h2>Otso</h2>
-    <a class="twitter-timeline" href="https://twitter.com/OtsoHannula">@OtsoHannula</a>
+  <section class="container">
+    <header class="row">
+      <h1 class="col">fasilitaat.io</h1>
+    </header>
+    <section class="row">
+      <section class="col-sm-4">
+        <h2>Otso</h2>
+
+      </section>
+      <section class="col-sm-4">
+        <h2>Piia</h2>
+      </section>
+      <section class="col-sm-4">
+        <h2>Eevert</h2>
+      </section>
+    </section>
   </section>
-  <section>
-    <h2>Piia</h2>
-    <a class="twitter-timeline" href="https://twitter.com/PiiaKuosmanen">@PiiaKuosmanen</a>
-  </section>
-  <section>
-    <h2>Eevert</h2>
-    <a class="twitter-timeline" href="https://twitter.com/Ezku">@Ezku</a>
-  </section>
+  <footer>
+    <div class="container">
+    <div class="row">
+      <section class="col-sm-4">
+        <a
+          class="twitter-timeline"
+          href="https://twitter.com/OtsoHannula"
+          data-tweet-limit="3"
+          data-theme="dark"
+        >
+          @OtsoHannula
+        </a>
+      </section>
+      <section class="col-sm-4">
+        <a
+          class="twitter-timeline"
+          href="https://twitter.com/PiiaKuosmanen"
+          data-tweet-limit="3"
+          data-theme="dark"
+        >
+          @PiiaKuosmanen
+        </a>
+      </section>
+      <section class="col-sm-4">
+        <a
+          class="twitter-timeline"
+          href="https://twitter.com/Ezku"
+          data-tweet-limit="3"
+          data-theme="dark"
+        >
+          @Ezku
+        </a>
+      </section>
+    </div>
+    </div>
+  </footer>
   <script>
       window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
       ga('create','UA-44621760-3','auto');ga('send','pageview')
