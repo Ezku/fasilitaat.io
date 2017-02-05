@@ -1,6 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
-  padding-top: 1rem;
+  background-color: #292f33
+}
+
+.content {
+  background-color: white;
+  padding-bottom: 2em;
 }
 
 h1 {
@@ -16,8 +21,4 @@ h2 {
 section {
   font-weight: 300;
   font-size: 1.431rem;
-}
-
-footer {
-  background-color: #292f33;
 }
